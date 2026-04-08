@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>Cinema Project 🎬</title>
+
+  <!-- CSS bağlama -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <!-- Başlık -->
+    <h1>🎬 Film Ekle</h1>
+
+    <!-- Film ekleme formu -->
+    <div class="form">
+      <input type="text" id="title" placeholder="Film adı">
+      <input type="text" id="description" placeholder="Açıklama">
+      <input type="number" id="year" placeholder="Yıl">
+
+      <!-- Buton -->
+      <button onclick="addMovie()">Ekle</button>
+    </div>
+
+    <!-- Liste başlığı -->
+    <h2>📃 Film Listesi</h2>
+
+    <!-- Film listesi -->
+    <ul id="movieList"></ul>
+
+  </div>
+
+  <!-- JS bağlama -->
+  <script src="script.js"></script>
+
+</body>
+</html>
